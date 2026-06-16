@@ -1,0 +1,20 @@
+.home-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  padding: 2rem;
+}
+
+.nav-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(18rem, 100%), 1fr));
+  gap: 1.5rem;
+  width: min(100%, 80rem);
+}
+
+.big-title {
+  padding: 64px 0;
+  font-size: 64px;
+  letter-spacing: 1px;
+}

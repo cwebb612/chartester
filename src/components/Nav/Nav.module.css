@@ -1,0 +1,29 @@
+.nav-container {
+  display: flex;
+  border-bottom: solid 1px black;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-link {
+  padding: 8px;
+  text-decoration: none;
+  color: inherit;
+  font-size: 24px;
+}
+
+.nav-link:hover {
+  text-decoration: underline;
+}
+
+.nav-link-current {
+  padding: 8px;
+  text-decoration: underline;
+  text-decoration-color: rgb(16, 0, 194);
+  color: inherit;
+  font-size: 24px;
+}
+
+.nav-link-list {
+  display: flex;
+}

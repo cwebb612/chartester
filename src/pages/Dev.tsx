@@ -1,3 +1,5 @@
 export default function Dev() {
-  return <h1>Dev</h1>;
+  return (
+    <div>Dev Work</div>
+  );
 }
