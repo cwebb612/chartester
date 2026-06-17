@@ -1,6 +1,7 @@
-import { ReactNode } from 'react';
+import { ReactNode, ComponentType } from 'react';
+import Portfolio from '../projectPages/Portfolio/Portfolio';
 
-type Project = {
+export type Project = {
   // id determines order it shows up in dev table.
   // id can also be considered the "priority" or "coolness"
   id: number;
@@ -8,31 +9,31 @@ type Project = {
   title: string;
   shortDescription: string;
   status: string;
-  statusColor?: string
+  statusColor?: string;
   statusIcon?: ReactNode;
   techStack?: string[];
-  route: string;
+  pageContent?: ComponentType<any>;
 }
 
 export const projectList: Project[] = [
   // Personal portfolio (here)
   {
-    id: 0,
+    id: 1,
     title: "Personal Portfolio",
     shortDescription: "The website you are looking at right now.",
     status: "You're looking at it",
-    statusColor: "#0e421d",
-    techStack: ["React", "Web Infrastructure", "GCP"],
-    route: "/portfolio"
+    statusColor: "#05bb38",
+    techStack: ["React", "Infrastructure", "GCP"],
+    pageContent: Portfolio,
   },
   // The rack
   {
-    id: 1,
+    id: 2,
     title: "Mini Rack",
     shortDescription: "A few computers that enable me to do a lot of cool things on my home network",
     status: "Ever Evolving",
+    statusColor: "#0e3bcf",
     techStack: ["Networking", "OS", "Docker"],
-    route: "/rack",
   },
   // homekit V3
   // hallway lights (deprecated)
@@ -42,8 +43,8 @@ export const projectList: Project[] = [
     title: "Money Talk",
     shortDescription: "A self-hosted application to track your money. Up to you to talk about it",
     status: "v1.5.1",
+    statusColor: "#c99b04",
     techStack: ["NextJS", "Typescript", "MongoDB"],
-    route: "/money-talk",
   }
   // bench club
   // Brawl Stars AI

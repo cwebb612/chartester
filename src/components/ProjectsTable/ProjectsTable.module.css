@@ -1,0 +1,41 @@
+.table-container {
+  width: 100%;
+}
+
+.table-row-container {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem;
+  border-top: solid 1px #4b4b4b;
+  transition: transform 0.3s ease-out, box-shadow 0.3s ease-out;
+}
+
+.table-row-container:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+}
+
+.table-row-title {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.horizontal-push {
+  margin-left: auto;
+}
+
+.skills-container {
+  display: flex;
+  gap: 1rem;
+}
+
+.id-text {
+  color: #4b4b4b;
+}
+
+.information-stack {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
