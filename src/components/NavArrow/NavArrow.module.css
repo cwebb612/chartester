@@ -1,0 +1,11 @@
+.arrow {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0.25rem;
+}
+
+.arrowImg {
+  display: block;
+  width: auto;
+}

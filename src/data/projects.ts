@@ -1,5 +1,7 @@
 import { ReactNode, ComponentType } from 'react';
 import Portfolio from '../projectPages/Portfolio/Portfolio';
+import MoneyTalk from '../projectPages/MoneyTalk/MoneyTalk';
+import Rack from '../projectPages/Rack/Rack';
 
 export type Project = {
   // id determines order it shows up in dev table.
@@ -34,6 +36,7 @@ export const projectList: Project[] = [
     status: "Ever Evolving",
     statusColor: "#0e3bcf",
     techStack: ["Networking", "OS", "Docker"],
+    pageContent: Rack,
   },
   // homekit V3
   // hallway lights (deprecated)
@@ -45,6 +48,7 @@ export const projectList: Project[] = [
     status: "v1.5.1",
     statusColor: "#c99b04",
     techStack: ["NextJS", "Typescript", "MongoDB"],
+    pageContent: MoneyTalk,
   }
   // bench club
   // Brawl Stars AI

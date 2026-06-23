@@ -1,17 +1,16 @@
 import styles from './HomeCard.module.css';
 import { Link } from 'react-router-dom';
+import NavArrow from '../NavArrow/NavArrow';
 
 interface HomeCardProps {
   title: string;
   description: string;
-  cta?: string;
   destinationRoute: string;
 }
 
 function HomeCard({
   title,
   description,
-  cta = "Explore",
   destinationRoute,
 }: HomeCardProps) {
   return (
@@ -19,11 +18,9 @@ function HomeCard({
     <div className={styles["card-title"]}>
       {title}
     </div>
-    <div>
+    <div className={styles["description-container"]}>
       {description}
-    </div>
-    <div>
-      {cta} {"->"}
+      <NavArrow direction='forward' size="1rem"/>
     </div>
   </Link>
   );
