@@ -11,6 +11,7 @@
   grid-template-columns: repeat(auto-fit, minmax(min(18rem, 100%), 1fr));
   gap: 1.5rem;
   width: min(100%, 80rem);
+  padding-bottom: clamp(4rem, 6vw, 8rem);
 }
 
 .big-title {

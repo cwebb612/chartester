@@ -5,8 +5,13 @@
 .table-row-container {
   display: grid;
   grid-template-columns: auto 1fr auto auto;
-  gap: 1rem;
-  align-items: center;
+  grid-template-areas:
+    "id title  icon status"
+    "id desc   icon status"
+    "id pills  icon status";
+  column-gap: 1rem;
+  row-gap: 0.4rem;
+  align-items: start;
   padding: 1rem;
   border-top: solid 1px #4b4b4b;
   transition: transform 0.3s ease-out, box-shadow 0.3s ease-out;
@@ -17,51 +22,86 @@
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
 }
 
+.id-text {
+  grid-area: id;
+  align-self: center;
+  color: #4b4b4b;
+}
+
 .table-row-title {
+  grid-area: title;
   font-size: 20px;
   font-weight: 500;
 }
 
-.horizontal-push {
-  justify-self: end;
+.description-text {
+  grid-area: desc;
 }
 
 .skills-container {
+  grid-area: pills;
   display: flex;
   flex-wrap: wrap;
   gap: 0.75rem;
 }
 
-.id-text {
-  color: #4b4b4b;
+/* display: contents makes children participate directly in the parent grid */
+.status-wrapper {
+  display: contents;
 }
 
-.information-stack {
-  display: flex;
-  flex-direction: column;
-  gap: 0.4rem;
-  min-width: 0;
+.status-icon-cell {
+  grid-area: icon;
+  align-self: center;
+  justify-self: end;
+}
+
+.status-text-cell {
+  grid-area: status;
+  align-self: center;
+}
+
+.preview-image {
+  display: none;
 }
 
 @media (max-width: 640px) {
   .table-row-container {
-    grid-template-columns: 1fr;
-    align-items: stretch;
-  }
-
-  .horizontal-push {
-    justify-self: start;
-  }
-
-  .table-row-title,
-  .id-text,
-  .skills-container,
-  .horizontal-push,
-  .table-row-container > div:last-child {
-    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
   }
 
   .id-text {
     display: none;
+  }
+
+  .table-row-title {
+    order: 1;
+  }
+
+  .status-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    order: 2;
+  }
+
+  .preview-image {
+    display: block;
+    order: 3;
+  }
+
+  .preview-image img {
+    width: 100%;
+    border-radius: 4px;
+  }
+
+  .skills-container {
+    order: 4;
+  }
+
+  .description-text {
+    order: 5;
   }
 }

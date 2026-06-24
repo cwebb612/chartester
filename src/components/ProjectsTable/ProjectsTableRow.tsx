@@ -14,22 +14,25 @@ export default function ProjectsTableRow({project}: ProjectsTableRowParams) {
         <div className={styles["id-text"]}>
           {String(project.id).padStart(2, '0')}
         </div>
-        <div className={styles["information-stack"]}>
-          <div className={styles["table-row-title"]}>
-            {project.title}
-          </div>
-          <div>
-            {project.shortDescription}
-          </div>
-          <div className={styles["skills-container"]}>
-            {project.techStack?.map((tech) => <Pill text={tech} />)}
+        <div className={styles["table-row-title"]}>
+          {project.title}
+        </div>
+        <div className={styles["status-wrapper"]}>
+          <div className={styles["status-icon-cell"]}>{project.statusIcon}</div>
+          <div className={styles["status-text-cell"]} style={{ color: project.statusColor }}>
+            {project.status}
           </div>
         </div>
-        <div className={styles["horizontal-push"]}>
-          {project.statusIcon}
+        {project.previewImageUrl && (
+          <div className={styles["preview-image"]}>
+            <img src={project.previewImageUrl} alt={project.title} />
+          </div>
+        )}
+        <div className={styles["skills-container"]}>
+          {project.techStack?.map((tech) => <Pill key={tech} text={tech} />)}
         </div>
-        <div style={{ color: project.statusColor}}>
-          {project.status}
+        <div className={styles["description-text"]}>
+          {project.shortDescription}
         </div>
       </div>
     </Link>

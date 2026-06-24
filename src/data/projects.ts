@@ -8,6 +8,7 @@ export type Project = {
   // id can also be considered the "priority" or "coolness"
   id: number;
   previewImageUrl?: string;
+  previewImageSrc?: string;
   title: string;
   shortDescription: string;
   status: string;

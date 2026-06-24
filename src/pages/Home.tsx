@@ -1,24 +1,37 @@
 import styles from './Home.module.css';
 import HomeCard from "../components/HomeCard/HomeCard"
+import About from "../components/About/About"
+
+const devCardDescription =
+  "Active documentation for all software related work " +
+  "including this website. " +
+  "Projects, tinkering, and tutorials where possible. " +
+  "Lots of self development along the way.";
+
+const photographyCardDescription =
+  "Just catching light and stuff as a hobby. " +
+  "Some cool pictures here. "
 
 export default function Home() {
   return <div className={styles["home-container"]}>
 
     <div className={styles["big-title"]}>Charlie Webb</div>
 
+    <div>Portfolios</div>
+
     <div className={styles["nav-container"]}>
       <HomeCard
-        title="Dev Work"
-        description="A bunch of cool projects n stuff"
+        title="Development"
+        description={devCardDescription}
         destinationRoute="/dev"
       />
       <HomeCard
         title="Photography"
-        description="Catching light and stuff bod"
+        description={photographyCardDescription}
         destinationRoute="/photos"
       />
     </div>
-    <div>About</div>
+    <About />
     <div>Contact</div>
     <div>Footer</div>
   </div>;

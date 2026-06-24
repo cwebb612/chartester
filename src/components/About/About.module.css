@@ -1,0 +1,43 @@
+.about-background {
+  background-color: #0f0f0f;
+  min-width: 100vw;
+  color: #f9f9f9;
+}
+
+.about-container {
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.about-title {
+  font-size: 32px;
+  letter-spacing: 2px;
+  padding-bottom: 1rem;
+}
+
+.about-sub-title {
+  font-size: 28px;
+  padding: 1rem 0px;
+  font-style: italic;
+}
+
+.company-title {
+  font-size: 20px;
+  padding: 1rem 0px;
+}
+
+ul {
+  margin-top: 0;
+}
+
+.job-title-date-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.link {
+  text-decoration: underline;
+  color: inherit;
+}
