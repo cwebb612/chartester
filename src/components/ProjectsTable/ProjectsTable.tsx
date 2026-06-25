@@ -11,11 +11,14 @@ export default function ProjectsTable() {
 
   return (
     <div className={styles["table-container"]}>
-      {/* Header */}
+      <div className={styles["table-header"]}>
         <p>
           {projectListCount} Projects • Tutorials or code where possible
         </p>
-      {/* Body */}
+        <p>
+          Status
+        </p>
+      </div>
       <div>
         {projects.map((project) => <ProjectsTableRow project={project}/>)}
       </div>

@@ -1,0 +1,11 @@
+.contact-container {
+  display: flex;
+  flex-direction: column;
+  min-width: calc(100vw - 2rem);
+}
+
+.contact-title {
+  font-size: 48px;
+  letter-spacing: 2px;
+  padding-bottom: 1rem;
+}

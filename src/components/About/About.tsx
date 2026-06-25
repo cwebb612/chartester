@@ -5,84 +5,43 @@ export default function About() {
   return (
     <div className={styles["about-background"]}>
       <div className={styles["about-container"]}>
-        <div className={styles["about-title"]}>
-          About Me
-        </div>
 
-        <div className={styles["about-sub-title"]}>
-          Education
-        </div>
+        <div className={styles["about-title"]}>About Me</div>
+        <p className={styles["about-description"]}>Software Engineer at The Home Depot.</p>
 
-        <div className={styles["company-title"]}>
-          University of Michigan Class '24
-        </div>
-        <ul>
-          <li>
-            B.S. Computer Science and Cognitive Science
+        <div className={styles["about-sub-title"]}>Experience</div>
+        <ul className={styles["about-list"]}>
+          <li>The Home Depot, Atlanta, GA
+            <ul className={styles["about-list"]}>
+              <li>Software Engineer II (July 2024 - Present)</li>
+              <li>Order Fulfillment Associate (January - May 2024)</li>
+              <li>Software Engineer Intern (May - July 2023)</li>
+            </ul>
           </li>
-          <li>
-            Blue Jitsu Club Member
-          </li>
-          <li>
-            Theta Xi Fraternity
+          <li>Bend Health
+            <ul className={styles["about-list"]}>
+              <li>Software Engineer (May - December 2022)</li>
+            </ul>
           </li>
         </ul>
 
-        <div className={styles["about-sub-title"]}>
-          Work Experience
-        </div>
-        <div className={styles["meat-container"]}>
-
-          <div className={styles["company-title"]}>
-            The Home Depot, Atlanta, GA
-          </div>
-          <div className={styles["job-title-date-container"]}>
-            <div>
-              Software Engineer II
-            </div>
-            <div>
-              July 2024 - Present
-            </div>
-          </div>
-          <div className={styles["job-title-date-container"]}>
-            <div>
-              Order Fulfillment Associate
-            </div>
-            <div>
-              January - May 2024
-            </div>
-          </div>
-          <div className={styles["job-title-date-container"]}>
-            <div>
-              Software Engineer Intern
-            </div>
-            <div>
-              May - July 2023
-            </div>
-          </div>
-          <div className={styles["company-title"]}>
-            Bend Health
-          </div>
-          <div className={styles["job-title-date-container"]}>
-            <div>
-              Software Engineer
-            </div>
-            <div>
-              May - December 2022
-            </div>
-          </div>
-
-        </div>
-        <ul>
+        <div className={styles["about-sub-title"]}>Education</div>
+        <ul className={styles["about-list"]}>
+          <li>University of Michigan, Class of 2024
+            <ul className={styles["about-list"]}>
+              <li>B.S. Computer Science and Cognitive Science</li>
+              <li>GO BLUE!</li>
+            </ul>
+          </li>
         </ul>
-        <div className={styles["about-sub-title"]}>
-          Skills
-        </div >
-        <div className={styles["meat-container"]}>
+
+        <div className={styles["about-sub-title"]}>Skills</div>
+        <div className={styles["about-skills"]}>
           <Link to={"/dev"} className={styles["link"]}>
-            Go check out my portfolio!
+            Go see for yourself
           </Link>
         </div>
+
       </div>
     </div>
   )

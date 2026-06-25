@@ -1,6 +1,8 @@
 import styles from './Home.module.css';
 import HomeCard from "../components/HomeCard/HomeCard"
 import About from "../components/About/About"
+import Contact from "../components/Contact/Contact"
+import Footer from "../components/Footer/Footer"
 
 const devCardDescription =
   "Active documentation for all software related work " +
@@ -32,7 +34,7 @@ export default function Home() {
       />
     </div>
     <About />
-    <div>Contact</div>
-    <div>Footer</div>
+    <Contact />
+    <Footer />
   </div>;
 }

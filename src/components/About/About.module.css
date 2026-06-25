@@ -11,38 +11,35 @@
 }
 
 .about-title {
-  font-size: 32px;
+  font-size: 48px;
   letter-spacing: 2px;
-  padding-bottom: 1rem;
+  padding-bottom: 0.5rem;
+}
+
+.about-description {
+  font-size: 0.95rem;
+  color: #aaa;
+  margin: 0 0 1.5rem 0;
+  line-height: 1.6;
 }
 
 .about-sub-title {
   font-size: 28px;
-  padding: 1rem 0px;
+  padding: 1rem 0 0.5rem;
   font-style: italic;
 }
 
-.company-title {
-  font-size: 20px;
-  padding: 1rem 0px;
+.about-list {
+  margin: 0;
+  padding-left: 1.25rem;
+  line-height: 1.8;
 }
 
-ul {
-  margin-top: 0;
-}
-
-.job-title-date-container {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+.about-skills {
   padding-left: 0.5rem;
 }
 
 .link {
   text-decoration: underline;
   color: inherit;
-}
-
-.meat-container {
-  padding-left: 1rem;
 }

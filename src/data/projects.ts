@@ -23,10 +23,10 @@ export const projectList: Project[] = [
   {
     id: 1,
     title: "Personal Portfolio",
-    shortDescription: "The website you are looking at right now.",
+    shortDescription: "This website.",
     status: "You're looking at it",
     statusColor: "#05bb38",
-    techStack: ["React", "Infrastructure", "GCP"],
+    techStack: ["React", "Typescript", "Firebase"],
     pageContent: Portfolio,
   },
   // The rack

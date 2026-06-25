@@ -2,6 +2,13 @@
   width: 100%;
 }
 
+.table-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0 1rem;
+}
+
 .table-row-container {
   display: grid;
   grid-template-columns: auto 1fr auto auto;

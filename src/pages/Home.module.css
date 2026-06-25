@@ -3,7 +3,7 @@
   flex-direction: column;
   align-items: center;
   gap: 2rem;
-  padding: 2rem;
+  padding: 2rem 2rem 0 2rem;
 }
 
 .nav-container {
@@ -11,7 +11,7 @@
   grid-template-columns: repeat(auto-fit, minmax(min(18rem, 100%), 1fr));
   gap: 1.5rem;
   width: min(100%, 80rem);
-  padding-bottom: clamp(4rem, 6vw, 8rem);
+  padding-bottom: clamp(6rem, 16vw, 16rem);
 }
 
 .big-title {
