@@ -35,9 +35,14 @@ ul {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  padding-left: 0.5rem;
 }
 
 .link {
   text-decoration: underline;
   color: inherit;
+}
+
+.meat-container {
+  padding-left: 1rem;
 }

@@ -31,7 +31,7 @@ export default function About() {
         <div className={styles["about-sub-title"]}>
           Work Experience
         </div>
-        <div>
+        <div className={styles["meat-container"]}>
 
           <div className={styles["company-title"]}>
             The Home Depot, Atlanta, GA
@@ -77,10 +77,12 @@ export default function About() {
         </ul>
         <div className={styles["about-sub-title"]}>
           Skills
+        </div >
+        <div className={styles["meat-container"]}>
+          <Link to={"/dev"} className={styles["link"]}>
+            Go check out my portfolio!
+          </Link>
         </div>
-        <Link to={"/dev"} className={styles["link"]}>
-          Go check out my portfolio!
-        </Link>
       </div>
     </div>
   )
