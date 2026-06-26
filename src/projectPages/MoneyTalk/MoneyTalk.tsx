@@ -21,14 +21,14 @@ export default function MoneyTalk() {
         my accounts in one place to stay informed.
         I do not need to track transactions.
         I know where my money is going. I know where it is coming from.
-        Between my fianceé and I with bank accounts, brokerage accounts, 401k, ESPP,
+        Between my fiancée and I with bank accounts, brokerage accounts, 401k, ESPP,
         crypto, credit cards, etc... the spreadsheet just was not cutting it.
       </p>
       <p>In the end I had 3 very important non-negotiables:</p>
       <ol>
         <li>It needed to be self hosted. I own all the data. It only exists on my network.</li>
         <li>I need to enjoy using it.</li>
-        <li>My fianceé needs to enjoy using it.</li>
+        <li>My fiancée needs to enjoy using it.</li>
       </ol>
       <h2>Main User Flows</h2>
       <ol>
@@ -78,7 +78,7 @@ export default function MoneyTalk() {
       <p>
         At one point or another I had each of these deployed to my network.
         All of them met 1 of my 3 non-negotiables being self hosted. None were
-        enjoyable to use and my fianceé dreaded opening all 3.
+        enjoyable to use and my fiancée dreaded opening all 3.
         It was abundantly clear I needed to build my own app
       </p>
       <h2>
@@ -115,7 +115,7 @@ export default function MoneyTalk() {
       <PageImage
         imageFileName="/money-talk-pink-mode.png"
         maxWidth="400px"
-        description="Yes I was serious about the pink mode. My fianceé loves it. S tier feature"
+        description="Yes I was serious about the pink mode. My fiancée loves it. S tier feature"
       />
       <PageImage
         imageFileName="/money-talk-create-account.png"
