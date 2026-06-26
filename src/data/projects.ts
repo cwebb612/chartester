@@ -22,7 +22,7 @@ export const projectList: Project[] = [
   {
     id: 1,
     title: "Personal Portfolio",
-    shortDescription: "This website.",
+    shortDescription: "This website",
     status: "You're looking at it",
     statusColor: "#05bb38",
     techStack: ["React", "Typescript", "Firebase"],
@@ -38,6 +38,14 @@ export const projectList: Project[] = [
     pageContent: Rack,
   },
   // homekit V3
+  {
+    id: 3,
+    title: "Homekit",
+    shortDescription: "A tablet to handle all things to do with my home life",
+    status: "On 24/7",
+    statusColor: "#0f8b32",
+    techStack: ["Kotlin", "Android"],
+  },
   // hallway lights (deprecated)
   {
     id: 4,
