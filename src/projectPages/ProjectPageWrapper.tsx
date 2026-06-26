@@ -7,7 +7,7 @@ export default function ProjectPageWrapper({children}: {children: ReactNode}) {
     <div>
       <div className={styles['page-container']}>
         <div className={styles['nav-arrow']}>
-          <NavArrow direction='back' to='/dev' />
+          <NavArrow direction='back' to='/dev' size="1.5rem"/>
         </div>
         {children}
       </div>
