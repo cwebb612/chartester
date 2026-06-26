@@ -15,7 +15,7 @@ export default function PageImage({
   const src = imageUrl ?? imageFileName;
 
   return (
-    <div style={{ maxWidth, margin: '0 auto', textAlign: 'center' }}>
+    <div style={{ maxWidth, margin: '0 auto', textAlign: 'center', alignSelf: 'center' }}>
       {src && <img src={src} alt={description ?? ''} style={{ maxWidth: '100%' }} />}
       {description && <p style={{color: "#383838"}}>{description}</p>}
     </div>

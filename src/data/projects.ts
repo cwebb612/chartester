@@ -19,7 +19,6 @@ export type Project = {
 }
 
 export const projectList: Project[] = [
-  // Personal portfolio (here)
   {
     id: 1,
     title: "Personal Portfolio",
@@ -29,7 +28,6 @@ export const projectList: Project[] = [
     techStack: ["React", "Typescript", "Firebase"],
     pageContent: Portfolio,
   },
-  // The rack
   {
     id: 2,
     title: "Mini Rack",
@@ -41,12 +39,11 @@ export const projectList: Project[] = [
   },
   // homekit V3
   // hallway lights (deprecated)
-  // money talk app
   {
     id: 4,
     title: "Money Talk",
     shortDescription: "A self-hosted application to track your money. Up to you to talk about it",
-    status: "v1.5.1",
+    status: "v1.6.0",
     statusColor: "#c99b04",
     techStack: ["NextJS", "Typescript", "MongoDB"],
     pageContent: MoneyTalk,
@@ -54,6 +51,6 @@ export const projectList: Project[] = [
   // bench club
   // Brawl Stars AI
   // March Madness Brute Force Tuning (in progress)
-  // Cellular automate (coming)
+  // Cellular automata (coming)
   // Minecraft Forever World
 ]
