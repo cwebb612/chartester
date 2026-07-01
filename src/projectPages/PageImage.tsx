@@ -16,7 +16,7 @@ export default function PageImage({
 
   return (
     <div style={{ maxWidth, margin: '0 auto', textAlign: 'center', alignSelf: 'center' }}>
-      {src && <img src={src} alt={description ?? ''} style={{ maxWidth: '100%' }} />}
+      {src && <img loading="lazy" src={src} alt={description ?? ''} style={{ maxWidth: '100%' }} />}
       {description && <p style={{color: "#383838"}}>{description}</p>}
     </div>
   );

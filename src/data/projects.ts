@@ -2,6 +2,7 @@ import { ReactNode, ComponentType } from 'react';
 import Portfolio from '../projectPages/Portfolio/Portfolio';
 import MoneyTalk from '../projectPages/MoneyTalk/MoneyTalk';
 import Rack from '../projectPages/Rack/Rack';
+import Homekit from '../projectPages/Homekit/Homekit'
 
 export type Project = {
   // id determines order it shows up in dev table.
@@ -42,9 +43,10 @@ export const projectList: Project[] = [
     id: 3,
     title: "Homekit",
     shortDescription: "A tablet to handle all things to do with my home life",
-    status: "On 24/7",
+    status: "v2",
     statusColor: "#0f8b32",
     techStack: ["Kotlin", "Android"],
+    pageContent: Homekit,
   },
   // hallway lights (deprecated)
   {
