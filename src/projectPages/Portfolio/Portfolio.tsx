@@ -6,7 +6,7 @@ export default function Portfolio() {
     <ProjectPageWrapper>
       <h1>Portfolio</h1>
       <PageImage
-        imageFileName="/portfolio-diagram.png"
+        imageFileName="/portfolio/diagram.png"
         maxWidth="800px"
         description="Rough diagram of where everything is hosted"
       />

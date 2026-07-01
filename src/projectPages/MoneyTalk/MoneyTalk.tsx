@@ -11,7 +11,7 @@ export default function MoneyTalk() {
         </a>
       </p>
       <PageImage
-        imageFileName={"/money-talk-dark.png"}
+        imageFileName={"/money-talk/dark.png"}
         maxWidth={"400px"}
         description="Screenshot of Home Page (Sample Data)"
       />
@@ -113,19 +113,19 @@ export default function MoneyTalk() {
         Screenshots
       </h2>
       <PageImage
-        imageFileName="/money-talk-pink-mode.png"
+        imageFileName="/money-talk/pink-mode.png"
         maxWidth="400px"
         description="Yes I was serious about the pink mode. My fiancée loves it. S tier feature"
       />
       <PageImage
-        imageFileName="/money-talk-create-account.png"
+        imageFileName="/money-talk/create-account.png"
         maxWidth="400px"
         description="Form to create an account. Options for account types and a link to wherever
           you go to see the value of your account.
           "
       />
       <PageImage
-        imageFileName="/money-talk-account.png"
+        imageFileName="/money-talk/account.png"
         maxWidth="400px"
         description="When viewing the account,
           if you put in a link it will show right there under 'go to account'.
@@ -133,12 +133,12 @@ export default function MoneyTalk() {
           "
       />
       <PageImage
-        imageFileName="/money-talk-edit-cash.png"
+        imageFileName="/money-talk/edit-cash.png"
         maxWidth="400px"
         description="Editing the account is simple. Just put in the value of the account and the date of said value."
       />
       <PageImage
-        imageFileName="/money-talk-edit-investments.png"
+        imageFileName="/money-talk/edit-investments.png"
         maxWidth="400px"
         description="While editing investment accounts, including stocks or crypto,
           inputting the ticker will then fetch the actual price of that security.
@@ -146,14 +146,14 @@ export default function MoneyTalk() {
           "
       />
       <PageImage
-        imageFileName="/money-talk-trends.png"
+        imageFileName="/money-talk/trends.png"
         maxWidth="400px"
         description="Then we have the analytics tab. It says beta for a reason. This is
           some AI slop of a page to just help look at trends and get high scores in life.
           "
       />
       <PageImage
-        imageFileName="/money-talk-predictions.png"
+        imageFileName="/money-talk/predictions.png"
         maxWidth="400px"
         description="This is a fairly feature poor predictions chart. Definitely take
           anything you do here with a grain of salt. Still cool to think about these things

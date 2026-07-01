@@ -7,7 +7,7 @@ export default function Homekit() {
       <h1>
         Homekit
       </h1>
-      <PageImage imageFileName="/homekit-home.png"/>
+      <PageImage imageFileName="/homekit/home.png"/>
       <h2>Overview</h2>
       <p>
         The idea behind the homekit is to have a very useful device
@@ -24,7 +24,7 @@ export default function Homekit() {
 
       <h2>The Stand</h2>
       <p>I know what you are saying... what is that super cool stand?!</p>
-      <PageImage imageFileName="/homekit-stand.png"/>
+      <PageImage imageFileName="/homekit/stand.png"/>
       <p>
         Introducing The Stand ©. Engineered from a proprietary corrugated substrate
         sourced from a box that used to have a Ninja Creamy in it, Stand represents the
@@ -51,7 +51,7 @@ export default function Homekit() {
       </p>
 
       <h2>Home Page</h2>
-      <PageImage imageFileName="/homekit-home-sc.jpg" />
+      <PageImage imageFileName="/homekit/home-sc.jpg" />
       <h3>Features</h3>
       <ul>
         <li>
@@ -86,7 +86,7 @@ export default function Homekit() {
       </ul>
 
       <h2>Weather Page</h2>
-      <PageImage imageFileName="/homekit-weather-sc.jpg" />
+      <PageImage imageFileName="/homekit/weather-sc.jpg" />
       <h3>Features</h3>
       <ul>
         <li>
@@ -107,7 +107,7 @@ export default function Homekit() {
       </ul>
 
       <h2>Lights Page</h2>
-      <PageImage imageFileName="/homekit-lights-sc.jpg" />
+      <PageImage imageFileName="/homekit/lights-sc.jpg" />
       <h3>Features</h3>
       <ul>
         <li>
@@ -119,7 +119,7 @@ export default function Homekit() {
       </ul>
 
       <h2>Calendar Page</h2>
-      <PageImage imageFileName="/homekit-calendar-sc.jpg" />
+      <PageImage imageFileName="/homekit/calendar-sc.jpg" />
       <h3>Features</h3>
       <ul>
         <li>
@@ -131,7 +131,7 @@ export default function Homekit() {
       </ul>
 
       <h2>Car Page</h2>
-      <PageImage imageFileName="/homekit-car-sc.jpg" />
+      <PageImage imageFileName="/homekit/car-sc.jpg" />
       <h3>Features</h3>
       <p>
         For context, we live in a high rise and our parking deck
@@ -150,7 +150,7 @@ export default function Homekit() {
       </ul>
 
       <h2>Zen Mode</h2>
-      <PageImage imageFileName="/homekit-zen-sc.jpg" />
+      <PageImage imageFileName="/homekit/zen-sc.jpg" />
       <h3>Features</h3>
       <ul>
         <li>
@@ -162,9 +162,9 @@ export default function Homekit() {
       </ul>
 
       <h2>Settings Page</h2>
-      <PageImage imageFileName="/homekit-settings-1.jpg" />
-      <PageImage imageFileName="/homekit-settings-2.jpg" />
-      <PageImage imageFileName="/homekit-settings-3.jpg" />
+      <PageImage imageFileName="/homekit/settings-1.jpg" />
+      <PageImage imageFileName="/homekit/settings-2.jpg" />
+      <PageImage imageFileName="/homekit/settings-3.jpg" />
       <h3>Features</h3>
       <ul>
         <li>
@@ -205,12 +205,12 @@ export default function Homekit() {
 
       <h2>Photos</h2>
       <PageImage
-        imageFileName="/homekit-v1-1.jpeg"
+        imageFileName="/homekit/v1-1.jpeg"
         description="
           First attempt at getting it to work. Basic weather and lights hookup
       "/>
       <PageImage
-        imageFileName="/homekit-v1-2.jpg"
+        imageFileName="/homekit/v1-2.jpg"
         description="
           First proof of life! Boy was I sold on the grid UI. Still
           clearly unfinished but calendar integration and way too much weather information.
@@ -218,7 +218,7 @@ export default function Homekit() {
         "
         />
       <PageImage
-        imageFileName="/homekit-v1-3.png"
+        imageFileName="/homekit/v1-3.png"
         description="Unfortunately there is not a great picture of the final product.
           This is a screenshot from a video of me walking through it before I killed it.
           Still too much weather information. Very cramped. But still useful enough
@@ -227,7 +227,7 @@ export default function Homekit() {
         "
       />
       <PageImage
-        imageFileName="/homekit-v1-4.png"
+        imageFileName="/homekit/v1-4.png"
         description="
         And finally the settings modal. This is how you would route between pages.
         It also includes my favorite feature, the bomb button. It would blow up (kill) the app.
