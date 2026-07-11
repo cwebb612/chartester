@@ -3,6 +3,7 @@ import Portfolio from '../projectPages/Portfolio/Portfolio';
 import MoneyTalk from '../projectPages/MoneyTalk/MoneyTalk';
 import Rack from '../projectPages/Rack/Rack';
 import Homekit from '../projectPages/Homekit/Homekit'
+import CatPics from '../projectPages/CatPics/CatPics'
 
 export type Project = {
   // id determines order it shows up in dev table.
@@ -38,7 +39,6 @@ export const projectList: Project[] = [
     techStack: ["Networking", "OS", "Docker"],
     pageContent: Rack,
   },
-  // homekit V3
   {
     id: 3,
     title: "Homekit",
@@ -57,10 +57,22 @@ export const projectList: Project[] = [
     statusColor: "#c99b04",
     techStack: ["NextJS", "Typescript", "MongoDB"],
     pageContent: MoneyTalk,
+  },
+  {
+    id: 5,
+    title: "cat pics",
+    shortDescription: "Not a dev project. Just a cute way to give pics of cats to Chris and Emily",
+    status: "Cute as ever",
+    statusColor: "#101010",
+    techStack: ["Molecule", "Ollie"],
+    pageContent: CatPics,
   }
   // bench club
   // Brawl Stars AI
   // March Madness Brute Force Tuning (in progress)
   // Cellular automata (coming)
   // Minecraft Forever World
+  // Chartester hub ui
+  // chartester hub api
+  // Pixel Drag
 ]

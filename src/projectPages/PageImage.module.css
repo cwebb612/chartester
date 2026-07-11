@@ -1,0 +1,26 @@
+.download-button {
+  position: absolute;
+  top: 0.5rem;
+  right: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 2rem;
+  height: 2rem;
+  padding: 0;
+  border: none;
+  border-radius: 2px;
+  background: rgba(255, 255, 255, 0.8);
+  cursor: pointer;
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.download-button:hover {
+  transform: translateY(-1px);
+}
+
+.download-button-icon {
+  width: 1rem;
+  height: 1rem;
+  opacity: 0.8;
+}
