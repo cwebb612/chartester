@@ -3,7 +3,6 @@ import ProjectsTableRow from "./ProjectsTableRow"
 import styles from "./ProjectsTable.module.css"
 
 export default function ProjectsTable() {
-  // Header count of things in the table.
   // List / Gallery view toggle (future state)
   const projectListCount = projectList.length;
 
@@ -13,7 +12,7 @@ export default function ProjectsTable() {
     <div className={styles["table-container"]}>
       <div className={styles["table-header"]}>
         <p>
-          {projectListCount} Projects • Tutorials or code where possible
+          {projectListCount} Projects
         </p>
         <p>
           Status

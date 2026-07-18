@@ -6,9 +6,7 @@ import Footer from "../components/Footer/Footer"
 
 const devCardDescription =
   "Active documentation for all software related work " +
-  "including this website. " +
-  "Projects, tinkering, and tutorials where possible. " +
-  "Lots of self development along the way.";
+  "including, but not limited to, this website. ";
 
 const photographyCardDescription =
   "Just catching light and stuff as a hobby. " +

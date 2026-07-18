@@ -72,7 +72,6 @@ export const projectList: Project[] = [
   // March Madness Brute Force Tuning (in progress)
   // Cellular automata (coming)
   // Minecraft Forever World
-  // Chartester hub ui
-  // chartester hub api
+  // Chartester hub (UI / API)
   // Pixel Drag
 ]

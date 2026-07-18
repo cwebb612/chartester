@@ -1,0 +1,19 @@
+.card-container {
+  display: flex;
+  flex: 0 1 calc(33.333% - 1rem);
+  padding: 1rem;
+  box-sizing: border-box;
+}
+
+@media (max-width: 768px) {
+  .card-container {
+    flex-basis: 100%;
+  }
+}
+
+.photo {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+  display: block;
+}
